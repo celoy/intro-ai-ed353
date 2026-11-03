@@ -8,6 +8,7 @@ This course offers an introduction to the foundations of modern machine learning
 
 | # | Topic | Notebooks |
 |---|-------|-----------|
+| 0 | Python warm-up (self-study, not covered in class; solutions included) | [00a Python basics](notebooks/00a_python_basics.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/00a_python_basics.ipynb)<br>[00b NumPy and Matplotlib](notebooks/00b_numpy_matplotlib.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/00b_numpy_matplotlib.ipynb)<br>[00c Object-oriented programming](notebooks/00c_object_oriented_programming.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/00c_object_oriented_programming.ipynb) |
 | 1 | Introduction, linear and multivariate regression | [01a Linear regression](notebooks/01a_linear_regression.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/01a_linear_regression.ipynb)<br>[01b Multivariate regression](notebooks/01b_multivariate_regression.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/01b_multivariate_regression.ipynb) |
 | 2 | Gradient descent: alternatives and variations | *coming soon* |
 | 3 | Good practices: regularization, model reduction and feature extraction | *coming soon* |
@@ -62,8 +63,20 @@ jupyter lab
 
 ## Data
 
+- `notebooks/Data/*_temperature.dat`, `holland_seawater.dat`: monthly temperatures, from Mark Bakker's [Exploratory Computing with Python](http://mbakker7.github.io/exploratory_computing_with_python/).
 - `notebooks/Data/movie_metadata.csv`: IMDb movie metadata, from [Kaggle](https://www.kaggle.com/karrrimba/movie-metadatacsv).
 - `notebooks/Data/insurance.csv`: US medical insurance costs, from [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).
+
+## Further resources (free)
+
+- [The Python Tutorial](https://docs.python.org/3/tutorial/), the official introduction to the language.
+- [Scientific Python Lectures](https://lectures.scientific-python.org/): NumPy, Matplotlib, SciPy and more, for scientists and engineers.
+- [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html) and the Matplotlib [quick start guide](https://matplotlib.org/stable/users/explain/quick_start.html).
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas, including pandas and scikit-learn.
+
+## Acknowledgements
+
+Notebooks 00a and 00b are inspired by Mark Bakker's [Exploratory Computing with Python](http://mbakker7.github.io/exploratory_computing_with_python/) (TU Delft). Notebook 00c is adapted from an article by [Jeff Knupp](https://hackernoon.com/improve-your-python-python-classes-and-object-oriented-programming-d09ff461168d).
 
 ## Licence
 
