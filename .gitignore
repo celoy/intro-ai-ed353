@@ -20,5 +20,5 @@ notebooks/Data/MNIST/
 .DS_Store
 Thumbs.db
 
-# Instructions for Claude Code (instructor only, not for students)
+# Instructor notes (not for students)
 CLAUDE.md
