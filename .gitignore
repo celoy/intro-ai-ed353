@@ -1,0 +1,21 @@
+# Private teaching material: never published
+material/
+
+# Students' own work
+work/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets downloaded by the notebooks
+notebooks/Data/MNIST/
+
+# OS files
+.DS_Store
+Thumbs.db
