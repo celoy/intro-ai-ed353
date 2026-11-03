@@ -22,6 +22,12 @@ from pathlib import Path
 REPO = "celoy/intro-ai-ed353"
 BRANCH = "main"
 
+# Editor-neutral notebook metadata (also restored on commit by tools/reset_notebook_metadata.py)
+KERNEL_METADATA = {
+    "kernelspec": {"display_name": "Python 3 (ipykernel)", "language": "python", "name": "python3"},
+    "language_info": {"name": "python"},
+}
+
 SETUP_CODE = f"""\
 # Run this cell first. On Google Colab it downloads the course files
 # (data, helper modules); on your own computer it does nothing.
@@ -90,12 +96,9 @@ def prepare(src, dest):
     cells.insert(0, new_cell("markdown", badge, with_id))
 
     nb["cells"] = cells
-    nb["metadata"] = {
-        "kernelspec": {"display_name": "Python 3 (ipykernel)", "language": "python", "name": "python3"},
-        "language_info": {"name": "python"},
-    }
+    nb["metadata"] = KERNEL_METADATA
     Path(dest).parent.mkdir(parents=True, exist_ok=True)
-    Path(dest).write_text(json.dumps(nb, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    Path(dest).write_text(json.dumps(nb, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

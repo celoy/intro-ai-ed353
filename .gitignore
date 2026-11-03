@@ -22,3 +22,6 @@ Thumbs.db
 
 # Instructor notes (not for students)
 CLAUDE.md
+
+# Editor settings (local)
+.vscode/
