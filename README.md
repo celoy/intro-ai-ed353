@@ -10,8 +10,8 @@ This course offers an introduction to the foundations of modern machine learning
 |---|-------|-----------|
 | 0 | Python warm-up (self-study, not covered in class; solutions included) | [00a Python basics](notebooks/00a_python_basics.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/00a_python_basics.ipynb)<br>[00b NumPy and Matplotlib](notebooks/00b_numpy_matplotlib.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/00b_numpy_matplotlib.ipynb)<br>[00c Object-oriented programming](notebooks/00c_object_oriented_programming.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/00c_object_oriented_programming.ipynb) |
 | 1 | Introduction, linear and multivariate regression | [01a Linear regression](notebooks/01a_linear_regression.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/01a_linear_regression.ipynb)<br>[01b Multivariate regression](notebooks/01b_multivariate_regression.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/01b_multivariate_regression.ipynb) |
-| 2 | Gradient descent: alternatives and variations | *coming soon* |
-| 3 | Good practices: regularization, model reduction and feature extraction | *coming soon* |
+| 2 | Bias–variance trade-off, regularization and gradient-descent variants | [02a Bias–variance and regularization](notebooks/02a_bias_variance_regularization.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/02a_bias_variance_regularization.ipynb)<br>[02b Optimizers](notebooks/02b_optimizers.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/celoy/intro-ai-ed353/blob/main/notebooks/02b_optimizers.ipynb) |
+| 3 | Good practices: model selection, model reduction and feature extraction | *coming soon* |
 | 4 | Introduction to classification, logistic regression, SVMs | *coming soon* |
 | 5 | Other classifiers and clustering | *coming soon* |
 | 6 | Neural networks and the backpropagation algorithm | *coming soon* |
@@ -76,7 +76,7 @@ jupyter lab
 
 ## Acknowledgements
 
-Notebooks 00a and 00b are inspired by Mark Bakker's [Exploratory Computing with Python](http://mbakker7.github.io/exploratory_computing_with_python/) (TU Delft). Notebook 00c is adapted from an article by [Jeff Knupp](https://hackernoon.com/improve-your-python-python-classes-and-object-oriented-programming-d09ff461168d).
+Notebooks 00a and 00b are inspired by Mark Bakker's [Exploratory Computing with Python](http://mbakker7.github.io/exploratory_computing_with_python/) (TU Delft). Notebook 00c is adapted from an article by [Jeff Knupp](https://hackernoon.com/improve-your-python-python-classes-and-object-oriented-programming-d09ff461168d). In notebook 02b, the test function, the plotting code and the animation class are adapted from Louis Tiao's notebook [Visualizing and animating optimization algorithms with Matplotlib](https://github.com/ltiao/notebooks/blob/master/visualizing-and-animating-optimization-algorithms-with-matplotlib.ipynb) (MIT License, reproduced in the notebook).
 
 ## Licence
 
